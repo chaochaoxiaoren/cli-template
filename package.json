@@ -1,0 +1,20 @@
+{
+  "name": "cli-template",
+  "version": "1.0.0",
+  "description": "用户在终端输入命令，之后再根据用户选择设置最后的操作。",
+  "main": "index.js",
+  "bin": {
+    "cli-template": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "inquirer": "^6.5.0"
+  }
+}
